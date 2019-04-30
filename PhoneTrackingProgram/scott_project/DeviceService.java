@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 public class DeviceService {
 
   public static void main(String[] args) {
-    User user = new User("Scott", "scotthancock@gmail.com", "Password");
+    User user = new User("UserNameScott", "scotthancock@gmail.com", "Password");
     Location loc = new Location(-122.07871769999998f, 37.3933521f);
     Device device = new Device("ScottsDeviceID", "ScottsDeviceName", user, loc);
 
